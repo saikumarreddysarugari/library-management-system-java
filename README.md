@@ -46,19 +46,7 @@ search, and list records. Choose option 8 to save your data and exit —
 it writes `books.csv` and `members.csv` in the same folder, which will be
 reloaded automatically the next time you run it.
 
-## Suggested Resume Bullet Points
-
-- Built a Java console application to manage a library's book catalog and
-  member loans, using object-oriented design (Book, Member, Library classes)
-  and Java Collections (Map, List) for in-memory data management.
-- Implemented custom checked exceptions to handle invalid ISBNs, unavailable
-  books, and unknown members, ensuring predictable error handling across the
-  application.
-- Designed a file-based persistence layer (Java I/O) to save and reload
-  catalog and membership data between sessions using a structured CSV format.
-
-## Ideas to Extend (if you want to go further before applying)
+## Future Improvements
 - Swap the CSV persistence for real JDBC + MySQL/SQLite (matches the SQL
   skill already on your resume and makes this a genuine full-stack-adjacent project).
 - Add a simple Swing or JavaFX GUI instead of the console menu.
-- Push this to GitHub as a real, working public repo you can link from your resume.
